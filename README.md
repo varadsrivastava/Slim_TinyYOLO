@@ -1,4 +1,5 @@
 # Slim TinyYOLO
+One step towards energy efficient object detection on Edge computing devices (Nvidia Jetson Nano, here), using model compression approach.
 
 ## DATASET
 The VisDrone 2019 Object Detection (Zhu et al. 2019) in Video Challenge requires participating
@@ -67,3 +68,5 @@ We obtained a MAP value of almost 10 at 50% IoU threshold. Results obtained are 
 <img src="snaps/4results.png">
 
 ## TEST 
+As we can see that the accuracy of our new developed model is reduced, but is it around 3 times more efficient (in terms of parameter count). Actual usage does reveal higher FPS on Nvidia Jetson Nano, as well.
+<img src="test.png">
